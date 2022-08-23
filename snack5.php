@@ -19,7 +19,7 @@
                         "Matematica" => '8',
                         "Storia" => '7',
                         "Latino" => '9',
-                        "informatica" => '10',
+                        "Informatica" => '10',
                     ],
             ],
             [
@@ -29,7 +29,7 @@
                         "Matematica" => '4',
                         "Storia" => '7',
                         "Latino" => '2',
-                        "informatica" => '9',
+                        "Informatica" => '9',
                     ],
             ],
             [
@@ -39,7 +39,7 @@
                         "Matematica" => '7',
                         "Storia" => '3',
                         "Latino" => '9',
-                        "informatica" => '1',
+                        "Informatica" => '1',
                     ],
             ],
             [
@@ -49,7 +49,7 @@
                         "Matematica" => '10',
                         "Storia" => '10',
                         "Latino" => '2',
-                        "informatica" => '4',
+                        "Informatica" => '4',
                     ],
             ],
             
