@@ -13,7 +13,7 @@
 
         $randomNumbers = [];
 
-        while (count($randomNum) < 15) {
+        while (count($randomNumbers) < 15) {
             $randomNum = rand(1, 100);
 
             if (!in_array($randomNum, $randomNumbers)) {
