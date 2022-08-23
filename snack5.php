@@ -62,7 +62,7 @@
 
         <h3>
             <?php
-                $mediaVoti = (array_sum($classroom[$i]['Voti'])) / 4;
+                $mediaVoti = (array_sum($classroom[$i]['Voti'])) / count($classroom[$i]['Voti']);
                 echo $classroom[$i]['Nome'] . ' ' . $classroom[$i]['Cognome'] . ': Media = ' . $mediaVoti;
             ?>
         </h3>
