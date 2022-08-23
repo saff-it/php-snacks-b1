@@ -62,7 +62,7 @@
 
         <h3>
             <?php
-                $mediaVoti = $classroom[$i]['Voti']['Matematica'];
+                $mediaVoti = ( ( ($classroom[$i]['Voti']['Matematica']) . ($classroom[$i]['Voti']['Storia']) . ($classroom[$i]['Voti']['Latino']) . ($classroom[$i]['Voti']['Informatica']) ) / 4);
                 echo $classroom[$i]['Nome'] . ' ' . $classroom[$i]['Cognome'] . ': Media = ' . $mediaVoti;
             ?>
         </h3>
