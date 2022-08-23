@@ -57,12 +57,12 @@
 
         // var_dump($classroom);
 
-        for ($i = 0; $i < count($array); $i++) {
+        for ($i = 0; $i < count($classroom); $i++) {
     ?>
 
         <h3>
             <?php 
-                echo 
+                echo $classroom[$i]['Nome'] . ' ' . $classroom[$i]['Cognome'] . ': Media' . ;
             ?>
         </h3>
 
